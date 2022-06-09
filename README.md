@@ -149,3 +149,7 @@ The file [index.html](https://github.com/adnanaziz/EPIJudge/blob/master/index.ht
 
 A big shout-out to the hundreds of users who tried out the release over the past couple of months. As always, we never fail to be impressed by the enthusiasm and commitment our readers have; it has served to bring out the best in us.
 We all thank [Viacheslav Kroilov](https://github.com/metopa), for applying his exceptional software engineering skills to make EPI Judge a reality.
+
+## References
+
+- [tips](tips.md)

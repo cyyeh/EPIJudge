@@ -2,9 +2,15 @@ from test_framework import generic_test
 
 
 def count_bits(x: int) -> int:
-    # TODO - you fill in here.
-    return 0
+    # solution 1
+    # return sum(map(int, format(x, 'b')))
 
+    # solution 2(from book)
+    num_bits = 0
+    while x:
+        num_bits += x & 1
+        x >>= 1
+    return num_bits
 
 if __name__ == '__main__':
     exit(
